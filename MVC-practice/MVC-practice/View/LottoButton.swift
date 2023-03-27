@@ -14,7 +14,7 @@ final class LottoButton: UIButton {
         super.init(frame: .zero)
         self.backgroundColor = .green
         self.layer.cornerRadius = 20.0
-        self.setTitle("Lotto 번호 생성", for: .normal)
+        self.setTitle("Push", for: .normal)
         self.setTitleColor(.white, for: .normal)
     }
     

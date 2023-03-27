@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class LottoBall: UIView {
+final class LottoBallView: UIView {
     
     let label = UILabel()
     let number: Int
@@ -24,12 +24,12 @@ final class LottoBall: UIView {
             label.centerYAnchor.constraint(equalTo: self.centerYAnchor),
         ])
         label.font = .systemFont(ofSize: 16, weight: .bold)
-        let r = CGFloat.random(in: 0...255)
-        let g = CGFloat.random(in: 0...255)
-        let b = CGFloat.random(in: 0...255)
+        let r = CGFloat.random(in: 0...255) / 255
+        let g = CGFloat.random(in: 0...255) / 255
+        let b = CGFloat.random(in: 0...255) / 255
         
         self.backgroundColor = UIColor.init(red: r, green: g, blue: b, alpha: 1.0)
-        label.textColor = UIColor.init(red: 255 - r, green: 255 - g, blue: 255 - b, alpha: 1.0)
+        label.textColor = UIColor.init(red: 1 - r, green: 1 - g, blue: 1 - b, alpha: 1.0)
     }
     
     required init?(coder: NSCoder) {

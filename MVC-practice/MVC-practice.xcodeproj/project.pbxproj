@@ -14,7 +14,7 @@
 		AB62D68F29CDBCC5003A8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */; };
 		AB62D69229CDBCC5003A8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */; };
 		AB62D69D29CDBEA5003A8DF8 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69C29CDBEA5003A8DF8 /* Generator.swift */; };
-		AB62D69F29CDC3AD003A8DF8 /* LottoBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69E29CDC3AD003A8DF8 /* LottoBall.swift */; };
+		AB62D69F29CDC3AD003A8DF8 /* LottoBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */; };
 		AB62D6A129CDCA8A003A8DF8 /* LottoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		AB62D69129CDBCC5003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB62D69329CDBCC5003A8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB62D69C29CDBEA5003A8DF8 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
-		AB62D69E29CDC3AD003A8DF8 /* LottoBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoBall.swift; sourceTree = "<group>"; };
+		AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoBallView.swift; sourceTree = "<group>"; };
 		AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */,
-				AB62D69E29CDC3AD003A8DF8 /* LottoBall.swift */,
+				AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */,
 				AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */,
 			);
 			path = View;
@@ -175,7 +175,7 @@
 				AB62D69D29CDBEA5003A8DF8 /* Generator.swift in Sources */,
 				AB62D68A29CDBCC3003A8DF8 /* LottoGeneratingViewController.swift in Sources */,
 				AB62D68629CDBCC3003A8DF8 /* AppDelegate.swift in Sources */,
-				AB62D69F29CDC3AD003A8DF8 /* LottoBall.swift in Sources */,
+				AB62D69F29CDC3AD003A8DF8 /* LottoBallView.swift in Sources */,
 				AB62D68829CDBCC3003A8DF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
