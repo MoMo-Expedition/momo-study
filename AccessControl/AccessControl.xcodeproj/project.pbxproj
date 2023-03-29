@@ -7,135 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB62D68629CDBCC3003A8DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D68529CDBCC3003A8DF8 /* AppDelegate.swift */; };
-		AB62D68829CDBCC3003A8DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D68729CDBCC3003A8DF8 /* SceneDelegate.swift */; };
-		AB62D68A29CDBCC3003A8DF8 /* LottoGeneratingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D68929CDBCC3003A8DF8 /* LottoGeneratingViewController.swift */; };
-		AB62D68D29CDBCC3003A8DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */; };
-		AB62D68F29CDBCC5003A8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */; };
-		AB62D69229CDBCC5003A8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */; };
-		AB62D69D29CDBEA5003A8DF8 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69C29CDBEA5003A8DF8 /* Generator.swift */; };
-		AB62D69F29CDC3AD003A8DF8 /* LottoBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */; };
-		AB62D6A129CDCA8A003A8DF8 /* LottoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */; };
+		AB62D6AF29D3057D003A8DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D6AE29D3057D003A8DF8 /* AppDelegate.swift */; };
+		AB62D6B129D3057D003A8DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D6B029D3057D003A8DF8 /* SceneDelegate.swift */; };
+		AB62D6B329D3057D003A8DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D6B229D3057D003A8DF8 /* ViewController.swift */; };
+		AB62D6B629D3057D003A8DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D6B429D3057D003A8DF8 /* Main.storyboard */; };
+		AB62D6B829D3057F003A8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB62D6B729D3057F003A8DF8 /* Assets.xcassets */; };
+		AB62D6BB29D3057F003A8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D6B929D3057F003A8DF8 /* LaunchScreen.storyboard */; };
+		AB62D6C429D30777003A8DF8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AB62D6C329D30777003A8DF8 /* SnapKit */; };
+		AB62D6C729D30B19003A8DF8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AB62D6C629D30B19003A8DF8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB62D68229CDBCC3003A8DF8 /* MVC-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB62D68529CDBCC3003A8DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB62D68729CDBCC3003A8DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB62D68929CDBCC3003A8DF8 /* LottoGeneratingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoGeneratingViewController.swift; sourceTree = "<group>"; };
-		AB62D68C29CDBCC3003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB62D69129CDBCC5003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AB62D69329CDBCC5003A8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB62D69C29CDBEA5003A8DF8 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
-		AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoBallView.swift; sourceTree = "<group>"; };
-		AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoButton.swift; sourceTree = "<group>"; };
+		AB62D6AB29D3057D003A8DF8 /* AccessControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB62D6AE29D3057D003A8DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB62D6B029D3057D003A8DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB62D6B229D3057D003A8DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB62D6B529D3057D003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB62D6B729D3057F003A8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB62D6BA29D3057F003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB62D6BC29D3057F003A8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB62D67F29CDBCC3003A8DF8 /* Frameworks */ = {
+		AB62D6A829D3057D003A8DF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB62D6C429D30777003A8DF8 /* SnapKit in Frameworks */,
+				AB62D6C729D30B19003A8DF8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB62D67929CDBCC3003A8DF8 = {
+		AB62D6A229D3057D003A8DF8 = {
 			isa = PBXGroup;
 			children = (
-				AB62D68429CDBCC3003A8DF8 /* MVC-practice */,
-				AB62D68329CDBCC3003A8DF8 /* Products */,
+				AB62D6AD29D3057D003A8DF8 /* AccessControl */,
+				AB62D6AC29D3057D003A8DF8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB62D68329CDBCC3003A8DF8 /* Products */ = {
+		AB62D6AC29D3057D003A8DF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB62D68229CDBCC3003A8DF8 /* MVC-practice.app */,
+				AB62D6AB29D3057D003A8DF8 /* AccessControl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB62D68429CDBCC3003A8DF8 /* MVC-practice */ = {
+		AB62D6AD29D3057D003A8DF8 /* AccessControl */ = {
 			isa = PBXGroup;
 			children = (
-				AB62D68529CDBCC3003A8DF8 /* AppDelegate.swift */,
-				AB62D68729CDBCC3003A8DF8 /* SceneDelegate.swift */,
-				AB62D69929CDBE13003A8DF8 /* Model */,
-				AB62D69B29CDBE2C003A8DF8 /* ViewController */,
-				AB62D69A29CDBE22003A8DF8 /* View */,
-				AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */,
-				AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */,
-				AB62D69329CDBCC5003A8DF8 /* Info.plist */,
+				AB62D6AE29D3057D003A8DF8 /* AppDelegate.swift */,
+				AB62D6B029D3057D003A8DF8 /* SceneDelegate.swift */,
+				AB62D6B229D3057D003A8DF8 /* ViewController.swift */,
+				AB62D6B429D3057D003A8DF8 /* Main.storyboard */,
+				AB62D6B729D3057F003A8DF8 /* Assets.xcassets */,
+				AB62D6B929D3057F003A8DF8 /* LaunchScreen.storyboard */,
+				AB62D6BC29D3057F003A8DF8 /* Info.plist */,
 			);
-			path = "MVC-practice";
-			sourceTree = "<group>";
-		};
-		AB62D69929CDBE13003A8DF8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AB62D69C29CDBEA5003A8DF8 /* Generator.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AB62D69A29CDBE22003A8DF8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */,
-				AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */,
-				AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		AB62D69B29CDBE2C003A8DF8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AB62D68929CDBCC3003A8DF8 /* LottoGeneratingViewController.swift */,
-			);
-			path = ViewController;
+			path = AccessControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB62D68129CDBCC3003A8DF8 /* MVC-practice */ = {
+		AB62D6AA29D3057D003A8DF8 /* AccessControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB62D69629CDBCC5003A8DF8 /* Build configuration list for PBXNativeTarget "MVC-practice" */;
+			buildConfigurationList = AB62D6BF29D3057F003A8DF8 /* Build configuration list for PBXNativeTarget "AccessControl" */;
 			buildPhases = (
-				AB62D67E29CDBCC3003A8DF8 /* Sources */,
-				AB62D67F29CDBCC3003A8DF8 /* Frameworks */,
-				AB62D68029CDBCC3003A8DF8 /* Resources */,
+				AB62D6A729D3057D003A8DF8 /* Sources */,
+				AB62D6A829D3057D003A8DF8 /* Frameworks */,
+				AB62D6A929D3057D003A8DF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MVC-practice";
-			productName = "MVC-practice";
-			productReference = AB62D68229CDBCC3003A8DF8 /* MVC-practice.app */;
+			name = AccessControl;
+			packageProductDependencies = (
+				AB62D6C329D30777003A8DF8 /* SnapKit */,
+				AB62D6C629D30B19003A8DF8 /* Alamofire */,
+			);
+			productName = AccessControl;
+			productReference = AB62D6AB29D3057D003A8DF8 /* AccessControl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB62D67A29CDBCC3003A8DF8 /* Project object */ = {
+		AB62D6A329D3057D003A8DF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					AB62D68129CDBCC3003A8DF8 = {
+					AB62D6AA29D3057D003A8DF8 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = AB62D67D29CDBCC3003A8DF8 /* Build configuration list for PBXProject "MVC-practice" */;
+			buildConfigurationList = AB62D6A629D3057D003A8DF8 /* Build configuration list for PBXProject "AccessControl" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,58 +118,59 @@
 				en,
 				Base,
 			);
-			mainGroup = AB62D67929CDBCC3003A8DF8;
-			productRefGroup = AB62D68329CDBCC3003A8DF8 /* Products */;
+			mainGroup = AB62D6A229D3057D003A8DF8;
+			packageReferences = (
+				AB62D6C229D30777003A8DF8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AB62D6C529D30B19003A8DF8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = AB62D6AC29D3057D003A8DF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB62D68129CDBCC3003A8DF8 /* MVC-practice */,
+				AB62D6AA29D3057D003A8DF8 /* AccessControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB62D68029CDBCC3003A8DF8 /* Resources */ = {
+		AB62D6A929D3057D003A8DF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB62D69229CDBCC5003A8DF8 /* LaunchScreen.storyboard in Resources */,
-				AB62D68F29CDBCC5003A8DF8 /* Assets.xcassets in Resources */,
-				AB62D68D29CDBCC3003A8DF8 /* Main.storyboard in Resources */,
+				AB62D6BB29D3057F003A8DF8 /* LaunchScreen.storyboard in Resources */,
+				AB62D6B829D3057F003A8DF8 /* Assets.xcassets in Resources */,
+				AB62D6B629D3057D003A8DF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB62D67E29CDBCC3003A8DF8 /* Sources */ = {
+		AB62D6A729D3057D003A8DF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB62D6A129CDCA8A003A8DF8 /* LottoButton.swift in Sources */,
-				AB62D69D29CDBEA5003A8DF8 /* Generator.swift in Sources */,
-				AB62D68A29CDBCC3003A8DF8 /* LottoGeneratingViewController.swift in Sources */,
-				AB62D68629CDBCC3003A8DF8 /* AppDelegate.swift in Sources */,
-				AB62D69F29CDC3AD003A8DF8 /* LottoBallView.swift in Sources */,
-				AB62D68829CDBCC3003A8DF8 /* SceneDelegate.swift in Sources */,
+				AB62D6B329D3057D003A8DF8 /* ViewController.swift in Sources */,
+				AB62D6AF29D3057D003A8DF8 /* AppDelegate.swift in Sources */,
+				AB62D6B129D3057D003A8DF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */ = {
+		AB62D6B429D3057D003A8DF8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB62D68C29CDBCC3003A8DF8 /* Base */,
+				AB62D6B529D3057D003A8DF8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */ = {
+		AB62D6B929D3057F003A8DF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB62D69129CDBCC5003A8DF8 /* Base */,
+				AB62D6BA29D3057F003A8DF8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AB62D69429CDBCC5003A8DF8 /* Debug */ = {
+		AB62D6BD29D3057F003A8DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		AB62D69529CDBCC5003A8DF8 /* Release */ = {
+		AB62D6BE29D3057F003A8DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +292,7 @@
 			};
 			name = Release;
 		};
-		AB62D69729CDBCC5003A8DF8 /* Debug */ = {
+		AB62D6C029D3057F003A8DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,20 +301,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8QSTXVD8H9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-practice/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "로또생성기";
+				INFOPLIST_FILE = AccessControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.MVC-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.AccessControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +320,7 @@
 			};
 			name = Debug;
 		};
-		AB62D69829CDBCC5003A8DF8 /* Release */ = {
+		AB62D6C129D3057F003A8DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,20 +329,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8QSTXVD8H9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-practice/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "로또생성기";
+				INFOPLIST_FILE = AccessControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.MVC-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.AccessControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -379,25 +351,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB62D67D29CDBCC3003A8DF8 /* Build configuration list for PBXProject "MVC-practice" */ = {
+		AB62D6A629D3057D003A8DF8 /* Build configuration list for PBXProject "AccessControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB62D69429CDBCC5003A8DF8 /* Debug */,
-				AB62D69529CDBCC5003A8DF8 /* Release */,
+				AB62D6BD29D3057F003A8DF8 /* Debug */,
+				AB62D6BE29D3057F003A8DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB62D69629CDBCC5003A8DF8 /* Build configuration list for PBXNativeTarget "MVC-practice" */ = {
+		AB62D6BF29D3057F003A8DF8 /* Build configuration list for PBXNativeTarget "AccessControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB62D69729CDBCC5003A8DF8 /* Debug */,
-				AB62D69829CDBCC5003A8DF8 /* Release */,
+				AB62D6C029D3057F003A8DF8 /* Debug */,
+				AB62D6C129D3057F003A8DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB62D6C229D30777003A8DF8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		AB62D6C529D30B19003A8DF8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB62D6C329D30777003A8DF8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB62D6C229D30777003A8DF8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AB62D6C629D30B19003A8DF8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB62D6C529D30B19003A8DF8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = AB62D67A29CDBCC3003A8DF8 /* Project object */;
+	rootObject = AB62D6A329D3057D003A8DF8 /* Project object */;
 }

@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB62D68629CDBCC3003A8DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D68529CDBCC3003A8DF8 /* AppDelegate.swift */; };
-		AB62D68829CDBCC3003A8DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D68729CDBCC3003A8DF8 /* SceneDelegate.swift */; };
-		AB62D68A29CDBCC3003A8DF8 /* LottoGeneratingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D68929CDBCC3003A8DF8 /* LottoGeneratingViewController.swift */; };
-		AB62D68D29CDBCC3003A8DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */; };
-		AB62D68F29CDBCC5003A8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */; };
-		AB62D69229CDBCC5003A8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */; };
-		AB62D69D29CDBEA5003A8DF8 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69C29CDBEA5003A8DF8 /* Generator.swift */; };
-		AB62D69F29CDC3AD003A8DF8 /* LottoBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */; };
-		AB62D6A129CDCA8A003A8DF8 /* LottoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */; };
+		ABF9699F29D45193005985BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF9699E29D45193005985BD /* AppDelegate.swift */; };
+		ABF969A129D45193005985BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF969A029D45193005985BD /* SceneDelegate.swift */; };
+		ABF969A329D45193005985BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF969A229D45193005985BD /* ViewController.swift */; };
+		ABF969A629D45193005985BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF969A429D45193005985BD /* Main.storyboard */; };
+		ABF969A829D45194005985BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF969A729D45194005985BD /* Assets.xcassets */; };
+		ABF969AB29D45194005985BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF969A929D45194005985BD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB62D68229CDBCC3003A8DF8 /* MVC-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB62D68529CDBCC3003A8DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB62D68729CDBCC3003A8DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB62D68929CDBCC3003A8DF8 /* LottoGeneratingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoGeneratingViewController.swift; sourceTree = "<group>"; };
-		AB62D68C29CDBCC3003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB62D69129CDBCC5003A8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AB62D69329CDBCC5003A8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB62D69C29CDBEA5003A8DF8 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
-		AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoBallView.swift; sourceTree = "<group>"; };
-		AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoButton.swift; sourceTree = "<group>"; };
+		ABF9699B29D45193005985BD /* AppLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF9699E29D45193005985BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF969A029D45193005985BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABF969A229D45193005985BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF969A529D45193005985BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF969A729D45194005985BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF969AA29D45194005985BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF969AC29D45194005985BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB62D67F29CDBCC3003A8DF8 /* Frameworks */ = {
+		ABF9699829D45193005985BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,99 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB62D67929CDBCC3003A8DF8 = {
+		ABF9699229D45193005985BD = {
 			isa = PBXGroup;
 			children = (
-				AB62D68429CDBCC3003A8DF8 /* MVC-practice */,
-				AB62D68329CDBCC3003A8DF8 /* Products */,
+				ABF9699D29D45193005985BD /* AppLifeCycle */,
+				ABF9699C29D45193005985BD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB62D68329CDBCC3003A8DF8 /* Products */ = {
+		ABF9699C29D45193005985BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB62D68229CDBCC3003A8DF8 /* MVC-practice.app */,
+				ABF9699B29D45193005985BD /* AppLifeCycle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB62D68429CDBCC3003A8DF8 /* MVC-practice */ = {
+		ABF9699D29D45193005985BD /* AppLifeCycle */ = {
 			isa = PBXGroup;
 			children = (
-				AB62D68529CDBCC3003A8DF8 /* AppDelegate.swift */,
-				AB62D68729CDBCC3003A8DF8 /* SceneDelegate.swift */,
-				AB62D69929CDBE13003A8DF8 /* Model */,
-				AB62D69B29CDBE2C003A8DF8 /* ViewController */,
-				AB62D69A29CDBE22003A8DF8 /* View */,
-				AB62D68E29CDBCC5003A8DF8 /* Assets.xcassets */,
-				AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */,
-				AB62D69329CDBCC5003A8DF8 /* Info.plist */,
+				ABF9699E29D45193005985BD /* AppDelegate.swift */,
+				ABF969A029D45193005985BD /* SceneDelegate.swift */,
+				ABF969A229D45193005985BD /* ViewController.swift */,
+				ABF969A429D45193005985BD /* Main.storyboard */,
+				ABF969A729D45194005985BD /* Assets.xcassets */,
+				ABF969A929D45194005985BD /* LaunchScreen.storyboard */,
+				ABF969AC29D45194005985BD /* Info.plist */,
 			);
-			path = "MVC-practice";
-			sourceTree = "<group>";
-		};
-		AB62D69929CDBE13003A8DF8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AB62D69C29CDBEA5003A8DF8 /* Generator.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AB62D69A29CDBE22003A8DF8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */,
-				AB62D69E29CDC3AD003A8DF8 /* LottoBallView.swift */,
-				AB62D6A029CDCA8A003A8DF8 /* LottoButton.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		AB62D69B29CDBE2C003A8DF8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AB62D68929CDBCC3003A8DF8 /* LottoGeneratingViewController.swift */,
-			);
-			path = ViewController;
+			path = AppLifeCycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB62D68129CDBCC3003A8DF8 /* MVC-practice */ = {
+		ABF9699A29D45193005985BD /* AppLifeCycle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB62D69629CDBCC5003A8DF8 /* Build configuration list for PBXNativeTarget "MVC-practice" */;
+			buildConfigurationList = ABF969AF29D45194005985BD /* Build configuration list for PBXNativeTarget "AppLifeCycle" */;
 			buildPhases = (
-				AB62D67E29CDBCC3003A8DF8 /* Sources */,
-				AB62D67F29CDBCC3003A8DF8 /* Frameworks */,
-				AB62D68029CDBCC3003A8DF8 /* Resources */,
+				ABF9699729D45193005985BD /* Sources */,
+				ABF9699829D45193005985BD /* Frameworks */,
+				ABF9699929D45193005985BD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MVC-practice";
-			productName = "MVC-practice";
-			productReference = AB62D68229CDBCC3003A8DF8 /* MVC-practice.app */;
+			name = AppLifeCycle;
+			productName = AppLifeCycle;
+			productReference = ABF9699B29D45193005985BD /* AppLifeCycle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB62D67A29CDBCC3003A8DF8 /* Project object */ = {
+		ABF9699329D45193005985BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					AB62D68129CDBCC3003A8DF8 = {
+					ABF9699A29D45193005985BD = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = AB62D67D29CDBCC3003A8DF8 /* Build configuration list for PBXProject "MVC-practice" */;
+			buildConfigurationList = ABF9699629D45193005985BD /* Build configuration list for PBXProject "AppLifeCycle" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = AB62D67929CDBCC3003A8DF8;
-			productRefGroup = AB62D68329CDBCC3003A8DF8 /* Products */;
+			mainGroup = ABF9699229D45193005985BD;
+			productRefGroup = ABF9699C29D45193005985BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB62D68129CDBCC3003A8DF8 /* MVC-practice */,
+				ABF9699A29D45193005985BD /* AppLifeCycle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB62D68029CDBCC3003A8DF8 /* Resources */ = {
+		ABF9699929D45193005985BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB62D69229CDBCC5003A8DF8 /* LaunchScreen.storyboard in Resources */,
-				AB62D68F29CDBCC5003A8DF8 /* Assets.xcassets in Resources */,
-				AB62D68D29CDBCC3003A8DF8 /* Main.storyboard in Resources */,
+				ABF969AB29D45194005985BD /* LaunchScreen.storyboard in Resources */,
+				ABF969A829D45194005985BD /* Assets.xcassets in Resources */,
+				ABF969A629D45193005985BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB62D67E29CDBCC3003A8DF8 /* Sources */ = {
+		ABF9699729D45193005985BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB62D6A129CDCA8A003A8DF8 /* LottoButton.swift in Sources */,
-				AB62D69D29CDBEA5003A8DF8 /* Generator.swift in Sources */,
-				AB62D68A29CDBCC3003A8DF8 /* LottoGeneratingViewController.swift in Sources */,
-				AB62D68629CDBCC3003A8DF8 /* AppDelegate.swift in Sources */,
-				AB62D69F29CDC3AD003A8DF8 /* LottoBallView.swift in Sources */,
-				AB62D68829CDBCC3003A8DF8 /* SceneDelegate.swift in Sources */,
+				ABF969A329D45193005985BD /* ViewController.swift in Sources */,
+				ABF9699F29D45193005985BD /* AppDelegate.swift in Sources */,
+				ABF969A129D45193005985BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB62D68B29CDBCC3003A8DF8 /* Main.storyboard */ = {
+		ABF969A429D45193005985BD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB62D68C29CDBCC3003A8DF8 /* Base */,
+				ABF969A529D45193005985BD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AB62D69029CDBCC5003A8DF8 /* LaunchScreen.storyboard */ = {
+		ABF969A929D45194005985BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB62D69129CDBCC5003A8DF8 /* Base */,
+				ABF969AA29D45194005985BD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AB62D69429CDBCC5003A8DF8 /* Debug */ = {
+		ABF969AD29D45194005985BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		AB62D69529CDBCC5003A8DF8 /* Release */ = {
+		ABF969AE29D45194005985BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +280,7 @@
 			};
 			name = Release;
 		};
-		AB62D69729CDBCC5003A8DF8 /* Debug */ = {
+		ABF969B029D45194005985BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,20 +289,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8QSTXVD8H9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-practice/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "로또생성기";
+				INFOPLIST_FILE = AppLifeCycle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.MVC-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.AppLifeCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		AB62D69829CDBCC5003A8DF8 /* Release */ = {
+		ABF969B129D45194005985BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,20 +317,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8QSTXVD8H9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-practice/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "로또생성기";
+				INFOPLIST_FILE = AppLifeCycle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.MVC-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.AppLifeCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -379,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB62D67D29CDBCC3003A8DF8 /* Build configuration list for PBXProject "MVC-practice" */ = {
+		ABF9699629D45193005985BD /* Build configuration list for PBXProject "AppLifeCycle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB62D69429CDBCC5003A8DF8 /* Debug */,
-				AB62D69529CDBCC5003A8DF8 /* Release */,
+				ABF969AD29D45194005985BD /* Debug */,
+				ABF969AE29D45194005985BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB62D69629CDBCC5003A8DF8 /* Build configuration list for PBXNativeTarget "MVC-practice" */ = {
+		ABF969AF29D45194005985BD /* Build configuration list for PBXNativeTarget "AppLifeCycle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB62D69729CDBCC5003A8DF8 /* Debug */,
-				AB62D69829CDBCC5003A8DF8 /* Release */,
+				ABF969B029D45194005985BD /* Debug */,
+				ABF969B129D45194005985BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB62D67A29CDBCC3003A8DF8 /* Project object */;
+	rootObject = ABF9699329D45193005985BD /* Project object */;
 }
